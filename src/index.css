@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Questrial', sans-serif;
+}
+
+
+.questionnaire-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.questionnaire-form h2 {
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.p-inputtextarea {
+  width: 100%;
+  margin-top: 20px;
+}
